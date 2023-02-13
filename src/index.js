@@ -14,7 +14,7 @@ function A(props){ // We will recive a formal argument
   let name="Anil"; //Data is availbable withing compoent
   let surname2 = 'Thorecha';
    //every function return somehting
-   return <h1>A {name} {props.surname} - <B surname={surname2} /> </h1>; //JSX
+   return <span>A {name} {props.surname} - <B surname={surname2} /> </span>; //JSX
 }
 
 
@@ -23,7 +23,7 @@ function A(props){ // We will recive a formal argument
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.querySelector('.anil'));
 
 let sn = 'DOLOLR';
 root.render( <A surname={sn} /> );

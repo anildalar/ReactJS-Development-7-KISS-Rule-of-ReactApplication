@@ -1,0 +1,54 @@
+ReactJs Application Create
+
+SPA (Single Page Application)
+
+The Project Folder Stucture
+/src
+		index.js (Logic)
+/public
+		index.html (View)
+		
+/node-modules
+package.json
+
+A very important Principle
+kiss rULE
+
+kEEP IT sIMMPLE sTUPID
+
+npm start 
+	-> 
+		react-scripts start 
+			->
+					index.js(Element place) root element
+							index.html
+		
+
+A f
+		B c
+				C f
+						D
+
+
+Every Component can have its data
+That data can be
+1. Within inside the compoent
+2. It can come from outside the compoonet
+
+Javascript Object 
+
+{
+	//1. P:V
+
+	//2. Method
+}
+
+object.member
+
+1. object.property
+2. object.methods()
+
+Every component should be in serprate Js file
+								
+
+
